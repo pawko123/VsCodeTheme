@@ -1,0 +1,26 @@
+{
+  "name": "Test JSON",
+  "version": "1.0.0",
+  "description": "Testing JSON syntax highlighting",
+  "author": {
+    "name": "John Doe",
+    "email": "john@example.com"
+  },
+  "settings": {
+    "enabled": true,
+    "port": 8080,
+    "timeout": 30000,
+    "maxConnections": null
+  },
+  "features": [
+    "authentication",
+    "logging",
+    "caching"
+  ],
+  "numbers": {
+    "integer": 42,
+    "float": 3.14159,
+    "negative": -100,
+    "exponential": 1.5e-10
+  }
+}

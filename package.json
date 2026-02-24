@@ -1,0 +1,22 @@
+{
+  "name": "andromeda-tokyonight-theme",
+  "displayName": "Andromeda TokyoNight",
+  "description": "VS Code color theme that mirrors your Andromeda × TokyoNight GNOME Shell palette.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "publisher": "local",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Andromeda TokyoNight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/andromeda-tokyonight-color-theme.json"
+      }
+    ]
+  }
+}

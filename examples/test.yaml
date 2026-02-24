@@ -1,0 +1,51 @@
+# YAML Test File
+name: Test YAML
+version: 1.0.0
+description: Testing YAML syntax highlighting
+
+# Author information
+author:
+  name: John Doe
+  email: john@example.com
+  active: true
+
+# Application settings
+settings:
+  enabled: true
+  port: 8080
+  timeout: 30000
+  maxConnections: null
+  hosts:
+    - localhost
+    - 127.0.0.1
+    - 0.0.0.0
+
+# Features list
+features:
+  - authentication
+  - logging
+  - caching
+
+# Anchors and aliases
+defaults: &defaults
+  timeout: 30
+  retries: 3
+
+production:
+  <<: *defaults
+  environment: prod
+
+development:
+  <<: *defaults
+  environment: dev
+
+# Multi-line strings
+description_literal: |
+  This is a literal
+  multi-line string that
+  preserves line breaks.
+
+description_folded: >
+  This is a folded
+  multi-line string that
+  joins lines together.

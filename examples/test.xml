@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML Test File -->
+<configuration xmlns="http://example.com/config">
+  <application name="TestApp" version="1.0.0">
+    <description>Testing XML syntax highlighting</description>
+    
+    <!-- Author information -->
+    <author>
+      <name>John Doe</name>
+      <email>john@example.com</email>
+      <active>true</active>
+    </author>
+    
+    <!-- Settings section -->
+    <settings>
+      <setting key="enabled" type="boolean">true</setting>
+      <setting key="port" type="number">8080</setting>
+      <setting key="timeout" type="number">30000</setting>
+      <setting key="maxConnections" type="null"/>
+    </settings>
+    
+    <!-- Features list -->
+    <features>
+      <feature id="1" enabled="true">authentication</feature>
+      <feature id="2" enabled="true">logging</feature>
+      <feature id="3" enabled="false">caching</feature>
+    </features>
+    
+    <!-- CDATA section -->
+    <script><![CDATA[
+      function test() {
+        return "Hello World";
+      }
+    ]]></script>
+  </application>
+</configuration>
