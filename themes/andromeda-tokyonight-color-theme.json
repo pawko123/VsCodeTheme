@@ -272,12 +272,31 @@
         "support.class",
         "entity.other.inherited-class",
         "support.type",
-        "entity.name.type.alias"
+        "entity.name.type.alias",
+        "entity.name.type.class",
+        "entity.name.type.class.java",
+        "meta.class.identifier.java",
+        "support.class.java",
+        "support.class.builtin"
       ],
       "settings": {
         "foreground": "#89ddff"
       }
     },
+      {
+        "name": "Java Return Types",
+        "scope": [
+          "storage.type.java",
+          "storage.type.generic.java",
+          "meta.method.return-type.java",
+          "meta.method.java storage.type.java",
+          "meta.class.body.java entity.name.type",
+          "meta.class.java entity.name.type"
+        ],
+        "settings": {
+          "foreground": "#89ddff"
+        }
+      },
     {
       "name": "Object Properties",
       "scope": [

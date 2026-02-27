@@ -24,6 +24,10 @@ Ten folder zawiera przykładowe pliki do testowania kolorowania składni motywu 
 - **test.css** - CSS (selektory (#f7768e), properties (#e0af68), values (#c8d3f5), keywords (#bb9af7), units (#ff9e64), variables (#73daca))
 - **test.md** - Markdown (nagłówki, listy, kod, linki)
 
+### Frameworki:
+- **test.vue** - Komponent Vue 3 (SFC) z `<script setup>`, `defineProps`, `defineEmits`, `TransitionGroup`, computed, watch i style scoped
+- **test.jsx** - React (hooki: `useReducer`, `useMemo`, `useCallback`, `useDeferredValue`, memoized komponenty, PropTypes)
+
 ## Użycie
 
 Otwórz dowolny plik w VS Code, aby zobaczyć jak motyw koloruje różne elementy składni.
