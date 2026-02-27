@@ -14,7 +14,8 @@
     "editor.foreground": "#e9e9ed",
     "editorLineNumber.foreground": "#5c7287",
     "editorLineNumber.activeForeground": "#7dcfff",
-    "editorCursor.foreground": "#ff9e64",
+    "editorCursor.foreground": "#7dcfff",
+    "editorCursor.background": "#ffffff",
     "editor.selectionBackground": "#283449",
     "editor.selectionHighlightBackground": "#28344980",
     "editor.wordHighlightBackground": "#1f233580",
@@ -145,6 +146,18 @@
     "editorWidget.foreground": "#e9e9ed"
   },
   "tokenColors": [
+    {
+      "name": "Invalid/Illegal",
+      "scope": [
+        "invalid.illegal",
+        "invalid.illegal.expected-map-separator.yaml",
+        "invalid.illegal.unrecognized.yaml",
+        "invalid.illegal.multiline-key.yaml"
+      ],
+      "settings": {
+        "foreground": "#e0af68"
+      }
+    },
     {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
