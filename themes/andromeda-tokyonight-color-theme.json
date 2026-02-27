@@ -134,7 +134,15 @@
     "chat.slashCommandBackground": "#283449",
     "chat.slashCommandForeground": "#7aa2f7",
     "chat.avatarBackground": "#283449",
-    "chat.avatarForeground": "#e9e9ed"
+    "chat.avatarForeground": "#e9e9ed",
+    "editor.findMatchBackground": "#ff9e6466",
+    "editor.findMatchHighlightBackground": "#ff9e6433",
+    "editor.findRangeHighlightBackground": "#28344940",
+    "editor.findMatchBorder": "#ff9e64",
+    "editor.findMatchHighlightBorder": "#ff9e6400",
+    "editorWidget.background": "#1f2335",
+    "editorWidget.border": "#3d4b73",
+    "editorWidget.foreground": "#e9e9ed"
   },
   "tokenColors": [
     {
