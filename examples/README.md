@@ -18,6 +18,8 @@ Ten folder zawiera przykładowe pliki do testowania kolorowania składni motywu 
 - **test.rs** - Rust (ownership, lifetimes, traits, pattern matching)
 - **test.java** - Java (klasy, interfejsy, streams, lambdy, records)
 - **test.cs** - C# (klasy, async/await, LINQ, pattern matching, nullable)
+- **test.c** - C (structy, mutexy pthread, tablice stałej długości, enumy)
+- **test.cpp** - C++ (coroutines, ranges, optional, structured bindings)
 
 ### Web:
 - **test.html** - HTML (tagi, atrybuty, inline CSS/JS)
