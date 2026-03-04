@@ -318,7 +318,7 @@
         "variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#e9e9ed"
+        "foreground": "#c8d3f5"
       }
     },
     {
@@ -413,6 +413,40 @@
       ],
       "settings": {
         "foreground": "#73daca"
+      }
+    },
+    {
+      "name": "TOML - Keys",
+      "scope": [
+        "support.type.property-name.toml",
+        "variable.other.key.toml",
+        "entity.name.key.toml"
+      ],
+      "settings": {
+        "foreground": "#e0af68"
+      }
+    },
+    {
+      "name": "TOML - Tables",
+      "scope": [
+        "entity.name.section.toml",
+        "punctuation.definition.table.begin.toml",
+        "punctuation.definition.table.end.toml",
+        "punctuation.definition.array.table.begin.toml",
+        "punctuation.definition.array.table.end.toml"
+      ],
+      "settings": {
+        "foreground": "#89ddff"
+      }
+    },
+    {
+      "name": "TOML - Dates & Times",
+      "scope": [
+        "constant.other.date.toml",
+        "constant.other.time.toml"
+      ],
+      "settings": {
+        "foreground": "#ff9e64"
       }
     },
     {
@@ -784,10 +818,10 @@
     }
   ],
   "semanticTokenColors": {
-    "variable": "#e9e9ed",
-    "variable.readonly": "#e9e9ed",
-    "variable.defaultLibrary": "#e9e9ed",
-    "variable.local": "#e9e9ed",
+    "variable": "#c8d3f5",
+    "variable.readonly": "#c8d3f5",
+    "variable.defaultLibrary": "#c8d3f5",
+    "variable.local": "#c8d3f5",
     "parameter": "#c8d3f5",
     "parameter.declaration": "#c8d3f5",
     "property": "#e0af68",

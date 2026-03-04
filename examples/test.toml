@@ -1,0 +1,34 @@
+# Sample TOML configuration demonstrating syntax highlighting
+
+[server]
+host = "127.0.0.1"
+port = 8080
+enabled = true
+
+[database]
+engine = "postgres"
+max_connections = 32
+timeout_seconds = 15.5
+
+[database.credentials]
+user = "demo_user"
+password = "s3cret"
+
+[logging]
+level = "info"
+file = "logs/app.log"
+
+[features]
+experimental = ["realtime", "delta-sync"]
+
+[features.rate_limits]
+"/api/v1/users" = 120
+"/api/v1/orders" = 60
+
+[[users]]
+id = "u-001"
+role = "admin"
+
+[[users]]
+id = "u-002"
+role = "guest"
